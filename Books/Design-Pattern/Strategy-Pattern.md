@@ -56,7 +56,7 @@
 - 所有的策略类都需要对外暴露（**可以使用工厂方法模式，代理模式和享元模式修正**）
 
 ### 扩展
-##### 策略枚举
+##### 1.策略枚举
 	public enum Calculator{
 		//加法运算
 		ADD("+"){
@@ -82,7 +82,7 @@
 		//声明一个抽象函数
 		public abstract int exec(int a, int b);
 	}
-#
+##### 2.高层模块
 	public class Client{
 		public static void main(String[] args){
 			int a = Integer.parseInt(args[0]);

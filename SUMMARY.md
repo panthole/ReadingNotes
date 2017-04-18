@@ -6,4 +6,5 @@
 * 《设计模式之禅》
 	* [策略模式](Books/Design-Pattern/Strategy-Pattern.md)
 	* [单例模式](Books/Design-Pattern/Singleton-Pattern.md)
+	* [建造者模式](Books/Design-Pattern/Builder-Pattern.md)
 

@@ -130,3 +130,12 @@
 * 如果其中再加一个{}表示一个初始化块，起到构造函数的功能，初始化块就是构造函数块
 * 多个{}表示该匿名函数中的多个构造函数块
 * 匿名函数虽然没有名字，但可以有构造函数，它由构造函数块来代替
+
+#####建议46 euqals基本原则
+* equals自反性原则：对于任何非空引用x,x.equals(x)应该返回true
+* equals对称性原则：对于任何引用x和y的情形，如果x.equals(y)返回true，那么y.equals(x)也应该返回true
+* equals传递性原则：对于实例对象x、y、z，如果x.euqals(y)返回true,y.equals(z)返回ture,那么x.euqals(z)也应该返回true
+
+#####建议47 覆写equals时建议使用getClass进行类型判断，而不要使用instanceof
+*　覆写equals时建议使用getClass进行类型判断，而不要使用instanceof
+*　如果父类在equals方法中使用了instanceof关键字，它是用来判断是否是一个类的实例对象，但是子类也会认为是该父类的实例

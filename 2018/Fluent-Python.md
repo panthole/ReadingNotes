@@ -9,5 +9,7 @@
 
 4. 数组排序的方法：a = array.array\(a.typecode, sorted\(a\)\)
 
+5. 内存视图 memoryview，能让用户在不复制内容的情况下操作同一个数组的不同切片
+
 
 
